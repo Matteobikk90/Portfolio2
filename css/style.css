@@ -3,6 +3,7 @@ body {
 	line-height: 1.4;
 	font-family: 'Sanchez', serif;
 	letter-spacing: 1px;
+	color: black;
 }
 
 header {
@@ -12,13 +13,12 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	opacity: 0.9;
 }
 
 .title {
 	margin: 20px;
 	float: left;
-	color: black;
+	color: #E87345;
 }
 
 nav {
@@ -55,6 +55,7 @@ a {
 	background-image: url("../img/background.png");
 	background-size: cover;
 	background-position: center;
+	color: black;
 }
 
 .me_headline {
