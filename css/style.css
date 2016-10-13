@@ -4,7 +4,6 @@ body {
 	font-family: 'Sanchez', serif;
 	letter-spacing: 1px;
 	color: black;
-	text-decoration: none;
 }
 
 header {
@@ -30,12 +29,15 @@ nav {
 
 ul {
 	list-style: none;
+	text-decoration: none;
 }
-
-section 
 
 a {
 	color: #E87345;
+}
+
+a:hover {
+    color: #E87345;
 }
 
 .title {
@@ -70,6 +72,8 @@ a {
 
 .me_link {
 	margin: auto auto auto 20px;
+	color: #E87345;
+	text-decoration: none;
 }
 
 .works_piece {
