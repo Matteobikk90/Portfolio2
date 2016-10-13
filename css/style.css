@@ -51,16 +51,24 @@ a {
 
 .me {
 	position: relative;
-	margin-top: 80px;
-	margin: 80px auto auto 20px;
+	margin-top: 60px;
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .me_headline {
 	width: 50%;
+	margin: auto auto auto 20px;
 }
 
 .me_description {
 	width: 50%;
+	margin: 40px auto auto 20px;
+}
+
+.me_link {
+	margin: auto auto auto 20px;
 }
 
 
