@@ -23,7 +23,7 @@ header {
 
 nav {
     float: right;
-    padding: 20px 20px 20px 0px;
+    padding: 18px 20px 20px 0px;
 }
 
 ul {
@@ -32,6 +32,10 @@ ul {
 
 nav ul li {
 	display: inline-block;
+}
+
+a {
+	color: #E87345;
 }
 
 .title {
@@ -44,6 +48,22 @@ nav ul li {
 	font-size: 2rem;
 	font-weight: 200;
 }
+
+.me {
+	position: relative;
+	margin-top: 80px;
+	margin: 80px auto auto 20px;
+}
+
+.me_headline {
+	width: 50%;
+}
+
+.me_description {
+	width: 50%;
+}
+
+
 
 
 
@@ -69,7 +89,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5r<em;
+	font-size: 1.5rem;
 	line-height: 1.333;
 	font-weight: 700;
 	text-decoration: underline;
@@ -81,10 +101,6 @@ h3 {
 
 .center {
     text-align: center;
-}
-
-a {
-	color: #E87345;
 }
 
 #works_piece_1 {
