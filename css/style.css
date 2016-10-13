@@ -4,6 +4,7 @@ body {
 	font-family: 'Sanchez', serif;
 	letter-spacing: 1px;
 	color: black;
+	text-decoration: none;
 }
 
 header {
@@ -30,6 +31,8 @@ nav {
 ul {
 	list-style: none;
 }
+
+section 
 
 a {
 	color: #E87345;
@@ -69,18 +72,49 @@ a {
 	margin: auto auto auto 20px;
 }
 
+.works_piece {
+	margin: 20px auto auto 20px;
+}
+
 section {
 	width: 29%;
 	float: left;
 	margin: 2% 2%;
 	text-align: center;
-	background: white;
 }
 
 img {
 	width: 100%;
 	height: 200px;
-	border-bottom: 1px solid black;
+	border: 1px solid black;
+}
+
+footer {
+	background: #293e52;
+	width: 100%;
+	overflow: hidden;
+}
+
+footer p, footer h3 {
+	color: black;
+}
+
+footer p a {
+	color: black;
+}
+
+ul.social li {
+	display: inline;
+}
+
+ul.social li img {
+	height: 50px;
+	width: 50px;
+	border:none;
+}
+
+.copyright {
+	padding: 20px;
 }
 
 
@@ -88,6 +122,8 @@ img {
 
 
 
-#works_piece_4 {
-	background-image: url("../img/project4.png");
-}*/
+
+
+
+
+
