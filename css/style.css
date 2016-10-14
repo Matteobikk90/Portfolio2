@@ -119,6 +119,10 @@ ul.social li img {
 	border:none;
 }
 
+.social {
+    margin-left: -12%;
+}
+
 .copyright {
 	padding: 20px;
 }
@@ -160,6 +164,16 @@ section {
     text-align: center;
 }
 
+.social {
+    margin-left: -10%;
+}
+
+ul.social li img {
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
 .copyright {
     padding: 20px;
     font-size: 14px;
@@ -189,6 +203,10 @@ h3 {
 
 p {
 	font-size: 14px;
+}
+
+.social {
+    margin-left: -13%;
 }
 
 .copyright {
