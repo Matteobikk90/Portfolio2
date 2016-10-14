@@ -61,8 +61,8 @@ a:hover {
 }
 
 .me_headline {
-	width: 50%;
-	margin: auto auto auto 20px;
+    width: 96%;
+    margin: auto auto auto 20px;
 }
 
 .me_description {
@@ -123,7 +123,80 @@ ul.social li img {
 	padding: 20px;
 }
 
+@media only screen and (max-width: 768px) {
 
+section {
+    width: 46%;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+
+.me_description {
+    width: 88%;
+    margin: 40px auto auto 20px;
+}
+
+section {
+    width: 96%;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+.copyright {
+    padding: 20px;
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+nav {
+    width: 57%;
+    margin-top: -61px;
+}
+
+.me_headline {
+    width: 93%;
+    margin: auto auto auto 20px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+}
+
+.copyright {
+    padding: 20px;
+    font-size: 14px;
+}
+
+}
 
 
 
