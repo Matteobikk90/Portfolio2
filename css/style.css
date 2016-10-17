@@ -164,6 +164,14 @@ section {
     text-align: center;
 }
 
+.works_piece {
+    margin: 20px auto 20px 20px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
 .social {
     margin-left: -10%;
 }
@@ -177,6 +185,14 @@ ul.social li img {
 .copyright {
     padding: 20px;
     font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+
+h4 {
+    font-size: 12px;
 }
 
 }
@@ -199,6 +215,10 @@ h2 {
 
 h3 {
 	font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
 }
 
 p {
